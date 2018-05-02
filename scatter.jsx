@@ -56,7 +56,7 @@ module.exports = createReactClass({
 
       let maxPetalWidth = Math.max.apply(Math, dataset.map(item => item.petalWidth))
       let minPetalWidth = Math.min.apply(Math, dataset.map(item => item.petalWidth))
-
+      //Crowdbotics
       let y = (maxPetalLength - minPetalLength) / 0.1
       let x = (maxPetalWidth - minPetalWidth) / 0.1
 
